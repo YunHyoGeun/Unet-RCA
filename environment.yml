@@ -1,0 +1,13 @@
+name: torch
+channels:
+  - defaults
+dependencies:
+  - python=3.12.2
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchaudio
+  - torchvision
+  - lightning
+  - matplotlib
+  - tensorboard
+prefix: /home/mne/miniconda3/envs/torch
